@@ -1,0 +1,39 @@
+html {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+html > * {
+  background: #000;
+}
+body > * {
+  padding-top: 10px;
+}
+.navbar-brand {
+  font-weight: 900;
+  font-size: 40px;
+}
+a {
+  color: #fff;
+}
+.nav-item {
+  margin-right: 5px;
+  font-size: 15px;
+}
+.nav-link_bottom {
+  height: 3px;
+  background: linear-gradient(45deg, #6157ff, #4975cb);
+}
+.nav-link:hover {
+  background: linear-gradient(45deg, #6157ff, #7e48cd);
+  color: #fff;
+}
+.search_btn {
+  background: linear-gradient(45deg, #6157ff, #e0409b);
+  outline: none;
+}
+.banner_img img {
+  width: 100%;
+}
+.trending_gifs {
+  margin: 10px;
+}
